@@ -1,12 +1,9 @@
 package com.github.mittyrobotics.autonomous.pathfollowing.v2;
 
-import com.github.mittyrobotics.LoggerInterface;
 import com.github.mittyrobotics.autonomous.pathfollowing.math.*;
 import com.github.mittyrobotics.drivetrain.SwerveConstants;
 import com.github.mittyrobotics.util.Gyro;
 import com.github.mittyrobotics.util.OI;
-
-import java.util.logging.Logger;
 
 public class SwervePath {
     public QuinticHermiteSpline spline;

@@ -1,6 +1,5 @@
 package com.github.mittyrobotics.autonomous.pathfollowing;
 
-import com.github.mittyrobotics.LoggerInterface;
 import com.github.mittyrobotics.autonomous.pathfollowing.math.QuinticHermiteSpline;
 import com.github.mittyrobotics.autonomous.pathfollowing.v2.SwervePath;
 import com.github.mittyrobotics.drivetrain.SwerveConstants;
