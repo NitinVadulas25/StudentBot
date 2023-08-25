@@ -1,10 +1,6 @@
 package com.github.mittyrobotics;
 
-import com.github.mittyrobotics.util.Gyro;
-import com.github.mittyrobotics.util.OI;
-import edu.wpi.first.wpilibj.GenericHID;
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj2.command.CommandScheduler;
 
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to
