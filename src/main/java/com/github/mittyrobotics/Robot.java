@@ -1,6 +1,7 @@
 package com.github.mittyrobotics;
 
 import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj2.command.CommandScheduler;
 
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to
@@ -19,8 +20,7 @@ public class Robot extends TimedRobot {
 
     @Override
     public void robotPeriodic() {
-
-
+        CommandScheduler.getInstance().run();
     }
 
     @Override
@@ -45,10 +45,6 @@ public class Robot extends TimedRobot {
     @Override
     public void teleopInit() {
 
-
-
-
-
     }
 
     /**
@@ -64,8 +60,6 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void disabledInit() {
-
-
 
     }
 
